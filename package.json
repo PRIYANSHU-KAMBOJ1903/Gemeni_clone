@@ -1,9 +1,11 @@
-{
+{  "homepage": "https://PRIYANSHU-KAMBOJ1903.github.io/Gemeni_clone",
   "name": "clone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
